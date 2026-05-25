@@ -60,7 +60,7 @@ export default function Hero() {
       <div className="flex flex-col">
         {/* Big spaced-letter name */}
         <div
-          className="font-medium leading-[0.88] tracking-tight text-black/80 select-none"
+          className="font-medium leading-[0.88] tracking-tight text-black/75 select-none"
           style={{ fontSize: "clamp(3.5rem, 12vw, 13rem)" }}
         >
           <SpacedName name="Ade" delay={0.2} />
@@ -74,7 +74,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.4, duration: 0.8, ease: "easeOut" }}
-          className="mt-10 max-w-lg text-xl text-black/55 leading-relaxed"
+          className="mt-10 max-w-lg text-xl text-black/45 leading-relaxed"
         >
           I&apos;m a{" "}
           <span className="text-black">developer</span>, passionate about{" "}

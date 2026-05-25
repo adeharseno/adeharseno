@@ -15,7 +15,7 @@ export default function Work() {
         initial={{ opacity: 0, y: 20 }}
         animate={titleInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="text-[10px] tracking-[0.45em] uppercase text-black/25 mb-12"
+        className="text-[16px] tracking-[0.45em] uppercase text-black/25 mb-12"
       >
         Selected Work
       </motion.h2>
@@ -46,14 +46,14 @@ function ProjectRow({ project, index }: { project: Project; index: number }) {
     >
       {/* Left: id + title + description */}
       <div className="flex items-start md:items-center gap-5 md:gap-10 flex-1 min-w-0">
-        <span className="text-[11px] text-black/15 font-mono mt-[3px] md:mt-0 shrink-0">
+        <span className="text-[14px] text-black/15 font-mono mt-[3px] md:mt-0 shrink-0">
           {project.id}
         </span>
         <div className="min-w-0">
-          <h3 className="text-lg md:text-xl font-light text-black/65 group-hover:text-black transition-colors duration-300 leading-snug">
+          <h3 className="text-lg md:text-2xl font-light text-black/65 group-hover:text-black transition-colors duration-300 leading-snug">
             {project.title}
           </h3>
-          <p className="hidden md:block text-xs text-black/20 mt-1 max-w-md leading-relaxed truncate">
+          <p className="hidden md:block text-sm text-black/20 mt-1 max-w-md leading-relaxed truncate">
             {project.description}
           </p>
         </div>

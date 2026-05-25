@@ -55,7 +55,7 @@ export default function Experience() {
         initial={{ opacity: 0, y: 20 }}
         animate={titleInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="text-[10px] tracking-[0.45em] uppercase text-black/25 mb-12"
+        className="text-[16px] tracking-[0.45em] uppercase text-black/25 mb-12"
       >
         Experience
       </motion.h2>
@@ -83,14 +83,14 @@ function JobRow({ job, index }: { job: Job; index: number }) {
     >
       {/* Left: index + role + company */}
       <div className="flex items-start gap-5 md:gap-10 flex-1 min-w-0">
-        <span className="text-[11px] text-black/15 font-mono mt-0.75 shrink-0">
+        <span className="text-[14px] text-black/15 font-mono mt-0.75 shrink-0">
           {String(index + 1).padStart(2, "0")}
         </span>
         <div className="min-w-0 flex-1">
-          <h3 className="text-lg md:text-xl font-light text-black/65 leading-snug">
+          <h3 className="text-lg md:text-2xl font-light text-black/65 leading-snug">
             {job.role}
           </h3>
-          <p className="text-xs text-black/35 mt-0.5 font-mono tracking-wide">
+          <p className="text-base text-black/35 mt-0.5 font-mono tracking-wide">
             {job.company}
           </p>
           <p className="mt-3 text-sm text-black/30 leading-relaxed max-w-lg hidden md:block">
@@ -107,7 +107,7 @@ function JobRow({ job, index }: { job: Job; index: number }) {
       </div>
 
       {/* Mobile description */}
-      <p className="text-sm text-black/30 leading-relaxed pl-10 md:hidden">
+      <p className="text-sm text-black/20 leading-relaxed pl-10 md:hidden">
         {job.description}
       </p>
     </motion.div>

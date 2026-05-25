@@ -1,7 +1,6 @@
 const socials = [
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Behance", href: "https://behance.net" },
-  { label: "Github", href: "https://github.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/ade-harseno-989436aa/" },
+  { label: "Github", href: "https://github.com/adeharseno" },
 ];
 
 export default function Footer() {

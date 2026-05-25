@@ -23,7 +23,7 @@ export default function About() {
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="text-[10px] tracking-[0.45em] uppercase text-black/25 mb-12"
+        className="text-[14px] tracking-[0.45em] uppercase text-black/25 mb-12"
       >
         About
       </motion.h2>
@@ -59,7 +59,7 @@ export default function About() {
         >
           {Object.entries(skills).map(([category, items]) => (
             <div key={category}>
-              <h4 className="text-[9px] tracking-[0.45em] uppercase text-black/18 mb-3">
+              <h4 className="text-[12px] tracking-[0.45em] uppercase text-black/18 mb-3">
                 {category}
               </h4>
               <div className="flex flex-wrap gap-x-4 gap-y-1">
