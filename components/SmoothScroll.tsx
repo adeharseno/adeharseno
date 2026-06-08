@@ -16,7 +16,7 @@ function LenisGSAPSync() {
     if (!lenis) return;
 
     function onTick(time: number) {
-      lenis.raf(time * 1000);
+      lenis?.raf(time * 1000);
     }
 
     gsap.ticker.add(onTick);
