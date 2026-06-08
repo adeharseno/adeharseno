@@ -81,7 +81,7 @@ export default function HoldButton({ email }: HoldButtonProps) {
             cy="50"
             r={r}
             fill="none"
-            stroke="rgba(0,0,0,0.07)"
+            stroke="rgba(0,0,0,0.1)"
             strokeWidth="1"
           />
           <circle
@@ -89,7 +89,7 @@ export default function HoldButton({ email }: HoldButtonProps) {
             cy="50"
             r={r}
             fill="none"
-            stroke="#0a0a0a"
+            stroke="rgba(0,0,0,0.6)"
             strokeWidth="1.5"
             strokeDasharray={circumference}
             strokeDashoffset={dashOffset}
@@ -98,9 +98,9 @@ export default function HoldButton({ email }: HoldButtonProps) {
         </svg>
 
         {/* Label */}
-        <span className="text-[10px] tracking-[0.2em] uppercase text-center leading-relaxed transition-colors duration-300 text-black/40 group-hover:text-black/60">
+          <span className="text-[10px] tracking-[0.2em] uppercase text-center leading-relaxed transition-colors duration-300" style={{ color: "rgba(0,0,0,0.35)" }}>
           {copied ? (
-            <span className="text-black">Copied!</span>
+            <span style={{ color: "rgba(0,0,0,0.75)" }}>Copied!</span>
           ) : holding ? (
             "Holding..."
           ) : (
@@ -113,7 +113,7 @@ export default function HoldButton({ email }: HoldButtonProps) {
         </span>
       </button>
 
-      <span className="text-xs text-black/20 font-mono tracking-wider">{email}</span>
+      <span className="text-xs font-mono tracking-wider" style={{ color: "rgba(0,0,0,0.18)" }}>{email}</span>
     </div>
   );
 }
