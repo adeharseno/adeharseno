@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I'm Ade Harseno 👋
 
-## Getting Started
+I'm building web applications, e-commerce platforms, internal systems, and AI-powered automation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend
+![React](https://img.shields.io/badge/React-000?logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-000?logo=typescript)
+![Inertia.js](https://img.shields.io/badge/Inertia.js-000)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-000?logo=tailwindcss)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend
+![Laravel](https://img.shields.io/badge/Laravel-000?logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-000?logo=php)
+![Node.js](https://img.shields.io/badge/Node.js-000?logo=nodedotjs)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-000?logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-000?logo=mongodb)
 
-## Learn More
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-000?logo=docker)
+![AWS](https://img.shields.io/badge/AWS-000?logo=amazonaws)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-000?logo=githubactions)
+![Linux](https://img.shields.io/badge/Linux-000?logo=linux)
 
-To learn more about Next.js, take a look at the following resources:
+### Automation & AI
+![n8n](https://img.shields.io/badge/n8n-000)
+![OpenAI](https://img.shields.io/badge/OpenAI-000?logo=openai)
+![Gemini](https://img.shields.io/badge/Gemini-000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📫 Let's Connect
 
-## Deploy on Vercel
+🌐 Website: https://adeharseno.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💼 LinkedIn: https://linkedin.com/in/ade-harseno-989436aa
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📧 Email: ade.harseno@gmail.com
+
+---
+
+> Building software that solves real business problems.
